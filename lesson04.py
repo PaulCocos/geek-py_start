@@ -55,7 +55,7 @@ while action != 0:
 		i = 0
 		while i < len(file_list):
 			curfile = file_list[i]
-			if curfile.endswith('.dupl') : # проверяем, есть ли .dupl
+			if curfile.endswith('.dupl') : # проверяем, есть ли .dupl - интересный метод!
 				os.remove(curfile)
 				print("Удален файл: ", curfile)
 			i += 1
